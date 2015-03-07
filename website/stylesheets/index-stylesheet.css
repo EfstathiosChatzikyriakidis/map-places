@@ -1,0 +1,223 @@
+/*
+ *  Copyright (C) 2010  Efstathios Chatzikyriakidis (contact@efxa.org)
+ *  Copyright (C) 2010  Stefanos Tzagias            (steftzag@gmail.com)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma, arial, sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  background-image: url('../graphics/bg-image-1.jpg');
+  background-color: #ffffff;
+  color: #000000;
+  overflow: auto;
+  height: 100%;
+}
+
+a:active, a:visited, a:link {
+  background-color: inherit;
+  color: #ea860b;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: inherit;
+  color: #1163f2;
+  text-decoration: none;
+}
+
+img {
+  border: 0px;
+}
+
+td {
+  font-size: 11px;
+  background-color: inherit;
+  color: inherit;
+}
+
+acronym {
+  cursor: help;
+}
+
+input {
+  color: #000000;
+  background-color: #b9e8f0;
+  font-family: inherit;
+  border: 1px solid #000000;
+}
+
+select {
+  color: #000000;
+  font-family: inherit;
+  background-color: #b9e8f0;
+  border: 1px solid #000000;
+}
+
+.hundred {
+  height: 100%;
+  width: 100%;
+}
+
+.height_hundred {
+  height: 100%;
+}
+
+.width_hundred {
+  width: 100%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.side_box {
+  border-color: #ffbd32;
+  border-style: ridge;
+  background-image: url('../graphics/bg-image-2.jpg');
+}
+
+#admin_box {
+  height: 100%;
+  width: 100%;
+}
+
+#alert_box {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid #979797;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0.8;
+}
+
+#alert_msg {
+  background-color: inherit;
+  color: #000000;
+  text-align: center;
+}
+
+#map_box {
+  border-color: #ffbd32;
+  border-style: ridge;
+  height: 100%;
+  width: 100%;
+}
+
+#map_canvas {
+  height: 100%;
+  width: 100%;
+}
+
+div.map_info_box {
+  margin: 15px;
+  width: 280px;
+  height: 160px;
+  overflow: auto;
+}
+
+img.map_info_img {
+  width: 120px;
+  height: 100px;
+}
+
+div.contextmenu {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  opacity: 0.8;
+}
+
+div.contextmenu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+div.contextmenu ul li {
+  padding: 2px;
+  margin: 0px;
+  display: block;
+  text-align: center;
+  line-height: 100%;
+}
+
+div.contextmenu ul li a {
+  border: none;
+  padding: 3px 11px 5px 11px;
+  font-family: tahoma, arial, sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  color: #000000;
+}
+
+div.contextmenu ul li a:hover {
+  border: 1px dashed #000000;
+  padding: 2px 10px 4px 10px;
+  background: #c3daf9;
+  color: #233d6d;
+}
+
+#upper_left {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../graphics/upper-left.png');
+  background-repeat: no-repeat;
+}
+
+#upper_right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0%;
+  background-image: url('../graphics/upper-right.png');
+  background-repeat: no-repeat;
+}
+
+#lower_left {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  background-image: url('../graphics/lower-left.png');
+  background-repeat: no-repeat;
+}
+
+#lower_right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-image: url('../graphics/lower-right.png');
+  background-repeat: no-repeat;
+}

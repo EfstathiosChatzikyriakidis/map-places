@@ -3,7 +3,7 @@
   // define web text messages.
 
   /*
-   *  Copyright (C) 2010  Efstathios Chatzikyriakidis (contact@efxa.org)
+   *  Copyright (C) 2010  Efstathios Chatzikyriakidis (stathis.chatzikyriakidis@gmail.com)
    *  Copyright (C) 2010  Stefanos Tzagias            (steftzag@gmail.com)
    *
    *  This program is free software: you can redistribute it and/or modify
